@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+  <title>monday.com: Where Teams Get Work Done</title>
+  <meta charset="utf-8">
+  <meta name="description" content="monday.com is a work OS that powers teams to run processes, projects and workflows in one digital workspace">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="wTQFceH3AK3iHlj+N0W5k8XHTY469O/NtNND8gFUxFQ=" />
+  <link rel="apple-touch-icon" sizes="57x57" href="https://cdn7.monday.com/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://cdn7.monday.com/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://cdn7.monday.com/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://cdn7.monday.com/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://cdn7.monday.com/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://cdn7.monday.com/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://cdn7.monday.com/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://cdn7.monday.com/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn7.monday.com/apple-touch-icon-180x180.png">
+
+    <link rel="icon" type="image/png" href="https://cdn7.monday.com/favicon-monday-v4.png">
+
+<link rel="manifest" href="https://cdn7.monday.com/manifest.json">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="https://cdn7.monday.com/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+    <meta content="https://cdn1.monday.com/monday-200x200.png" property="og:image">
+    <link rel="apple-touch-icon" href="https://cdn1.monday.com/monday-touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://cdn1.monday.com/monday-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://cdn1.monday.com/monday-touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://cdn1.monday.com/monday-touch-icon-ipad-retina.png" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:100,300,300italic,400,500,500italic' rel='stylesheet' type='text/css'>
+
+
+  <script>
+  window.bigbrainInitOptions = {
+    pulse_user_id: "",
+    pulse_account_id: "1894225",
+    started_plan_at: "2019-02-26 21:13:19 UTC",
+    account_created_at: "2018-06-25 18:31:45 UTC",
+    plan_id: 2779,
+    pulse_user_serial_number: "",
+    is_mobile_app: false,
+    send_immediately: true,
+    sync_interval: 2000,
+    source: "web_app"
+  };
+</script>
+<script>
+  window.bigbrainInitOptions = window.bigbrainInitOptions || {}
+  window.bigbrain_track_url = "https://track.bigbrain.me/prod";
+</script>
+    <script src="https://cdn7.monday.com/build/bigbrain_tracker-1f42fd5275e8550f2d5f.js"></script>
+
+
+
+
+
+
+  <style type="text/css">
+/* FONT AWESOME 4.6.1 */
+@font-face {
+  font-family: 'FontAwesome';
+  font-weight: normal;
+  font-style: normal;
+}
+</style>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css" />
+
+
+  <link rel="stylesheet" media="screen" href="https://cdn7.monday.com/assets/login_signup/index-d79214630c555fe4c8efb53077cf4794ccfb2ecdbb02296997792b4345cc95e5.css" />
+  <script src="https://cdn7.monday.com/assets/lib/jquery-1.11.2-7c9c796d8b91cbea2e7f8634eb2b965977e114f90254fab73293f71f732a0edb.js"></script>
+<script src="https://cdn7.monday.com/assets/lib/jquery/jquery.cookie-b62292cd48feba6e292dbb756285de07145fe319d906e68d41bd861a10322449.js"></script>
+
+  <script src="https://cdn7.monday.com/assets/splash-658f5dced2f5e3e656eb2a3b8d9b79ab4fce2fdc00aade4294a3f191b16bfb3a.js"></script>
+
+  <script src="https://monday.com/js/marketing_helpers/production.js"></script>
+
+  <script type="text/javascript">
+
+function isInIframe(){
+  try {
+    return window.location != window.parent.location;    
+  } catch (error) {
+    console.error(error);
+    return false;  
+  }
+
+}
+
+function isInPopUp(){
+  try {
+    return window.opener && window.opener !== window;    
+  } catch (error) {
+    console.error(error);
+    return false;
+  }
+}
+
+function isInMicrosoftTeamsApp(){
+  try {
+    var user_agent = navigator.userAgent;
+    return user_agent && user_agent.includes(" Teams/") && user_agent.includes(" Electron/");
+  } catch(error){
+    console.error(error);
+    return false;
+  }
+}
+
+
+window.LoginHelpers = {
+
+  show_error: function (msg) {
+    var content_div = $('.content')[0];
+
+    // remove old error messages
+    $('.alert-danger').remove();
+
+    var error_div = $("<div class='alert alert-danger'>"+msg+"</div>");
+    $(content_div).prepend($(error_div));
+  },
+
+  is_in_iframe: function() {
+    return isInIframe();
+  },
+
+  is_in_pop_up: function() {
+    return isInPopUp();
+  },
+
+  is_in_microsoft_teams_app: function() {
+    return isInMicrosoftTeamsApp();
+  },
+
+  open_in_new_tab_if_needed: function(url) {
+    const isIframe = isInIframe();
+    const isMicrosoftTeamsApp = isInMicrosoftTeamsApp();
+    if(!isMicrosoftTeamsApp && isIframe){
+      // the page is in an iframe, so we want to open the login in a new tab/window
+      window.open(url,'_blank');
+    } else {
+      window.location = url;
+    }
+  }
+}
+</script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+<script src="https://apis.google.com/js/api:client.js"></script>
+
+<style type="text/css">
+  .google-signup-icon {
+    background: url(https://cdn7.monday.com/images/logo_google.svg) transparent 8px no-repeat;
+  }
+</style>
+
+
+    <div class="zendesk_component" id="zendesk_component_wrapper"></div>
+
+<script>
+  window.zendesk_options = {}
+  window.zendesk_options.signup = true
+</script>
+    <script src="https://cdn7.monday.com/build/zendesk_init-339d13294d216b8ac13e.js"></script>
+
+
+
+
+  
+  
+</head>
+
+
+<body id="login_signup" class="   ">
+  <div class="login_signup_header">
+    <div class="account_logo">
+          <a class="logo" style="background-image:url(https://files.monday.com/logos/1894225/thumb/lucasfilm_logo_542433.png);" href="https://monday.com/"></a>
+    </div>
+
+    
+  </div>
+
+  <div class="page_content">
+
+    <div class="content ">
+
+      
+      
+      
+      
+
+
+        <div class="login_wrapper" id="login_page">
+    <div class="main_box">
+
+      
+
+<div id="google_apps_login" class="partial_required_sso">
+  <h1><b>Log</b> In</h1>
+
+  <h2 class="bold" style="display: block; margin-top: 20px;">
+    Log in or Sign up to <b>Lucasfilm</b>'s monday.com account using your <b></b> OKTA account
+  </h2>
+
+  <div class="signup_btn_wrapper">
+
+    <div class="signup_button google_button btn btn-primary ladda-button login_with_provider" data-style="zoom-out"><i class="fa fa-sign-in"></i> Log in with OKTA Account </div>
+
+      <div class="or"><span class="text">Or</span></div>
+      <a class="btn btn-primary signup_button email_password_button ladda-button" data-style="zoom-out" href="/users/sign_in?no_sso=true">I'm a guest in this account</a>
+
+        <h2>You can log in with email &amp; password if you&#39;re a guest</h2>
+
+  </div>
+
+  <div class="email_first_login">
+  <hr/>
+    <a class="login_to_another_account" href="https://auth.monday.com/login?dont_redirect=true">Login to another account</a>
+  </div>
+
+</div>
+
+<script type="text/javascript">
+  $(function() {
+    var isInIframe = window.location != window.parent.location;
+    BigBrain("track", "login_page_load", { placement: "sso", kind: 'okta' });
+
+    $('#google_apps_login .signup_button').each(function() {
+      if(isInIframe) {
+        Ladda.bind($(this)[0], {timeout: 0});
+      } else {
+        Ladda.bind($(this)[0]);
+      }
+    });
+
+    $("#google_apps_login .email_password_button").on('click', function(){
+      BigBrain("track", "login_page_click", { placement: "sso", kind: 'login_with_email_password', info1:'okta' });
+    })
+
+    $("#google_apps_login .login_with_provider").on('click', function(){
+      BigBrain("track", "login_page_click", { placement: "sso", kind: 'login_with_provider', info1:'okta' });
+    })
+
+    $(".login_to_another_account").on('click', function(){
+      BigBrain("track", "login_page_click", { placement: "sso", kind: "login_to_another_account", info1:'okta' });
+    });
+
+    $("#google_apps_login .signup_button").on('click', function(){
+      var url = "https://lucasfilm.monday.com/admin/sso_connectors/login";
+      if(isInIframe){
+        window.open(url, '_blank');
+      } else {
+        window.location = url;
+      }
+    });
+  });
+</script>
+
+  </div>
+</div>
+
+    </div>
+
+    
+  </div>
+
+      <script src="https://cdn7.monday.com/build/window_helpers-61eeb663164ce2dbb16b.js"></script>
+
+
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"5f3fb3613a8f2598","version":"2020.11.6","si":10}'></script>
+</body>
+</html>
+
+
+<script type="text/javascript">
+  $(function() {
+    const EVENT_NAME = 'login_page_error_render';
+
+    const error = '';
+    const alert = '';
+    const notice = '';
+    const info = '';
+
+    if (error) {
+      BigBrain('track', EVENT_NAME, { kind: 'error', info1: error });
+    }
+
+    if (alert) {
+      BigBrain('track', EVENT_NAME, { kind: 'alert', info1: alert });
+    }
+
+    if (notice) {
+      BigBrain('track', EVENT_NAME, { kind: 'notice', info1: notice });
+    }
+
+    if (info) {
+      BigBrain('track', EVENT_NAME, { kind: 'info', info1: info });
+    }
+  });
+</script>
